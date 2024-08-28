@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,12 +13,12 @@ const Home = () => {
           Extract valuable insights from your data with our state-of-the-art NLP
           tool. Effortlessly analyze and understand large volumes of text.
         </p>
-        <a
-          href="/extract"
+        <Link
+          to="/extract"
           className="bg-white text-indigo-600 px-6 py-3 rounded-md shadow-md hover:bg-indigo-600 hover:text-white transition duration-300"
         >
           Get Started
-        </a>
+        </Link>
       </section>
 
       {/* Feature Highlights */}
